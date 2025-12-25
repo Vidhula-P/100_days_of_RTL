@@ -1,0 +1,41 @@
+Some select runs to show working of ALU
+
+Run 1: a_i greater than b_i
+a_i:   7, b_i:   3, op_i: ADD, alu_o:  10
+a_i:   7, b_i:   3, op_i: SUB, alu_o:   4
+a_i:   7, b_i:   3, op_i: SLL, alu_o:  56
+a_i:   7, b_i:   3, op_i: LSR, alu_o:   0
+a_i:   7, b_i:   3, op_i: AND, alu_o:   3
+a_i:   7, b_i:   3, op_i: OR, alu_o:   7
+a_i:   7, b_i:   3, op_i: XOR, alu_o:   4
+a_i:   7, b_i:   3, op_i: EQL, alu_o:   0
+
+Run 2: b_i is zero
+a_i:   7, b_i:   0, op_i: ADD, alu_o:   7
+a_i:   7, b_i:   0, op_i: SUB, alu_o:   7
+a_i:   7, b_i:   0, op_i: SLL, alu_o:   7
+a_i:   7, b_i:   0, op_i: LSR, alu_o:   7
+a_i:   7, b_i:   0, op_i: AND, alu_o:   0
+a_i:   7, b_i:   0, op_i: OR, alu_o:   7
+a_i:   7, b_i:   0, op_i: XOR, alu_o:   7
+a_i:   7, b_i:   0, op_i: EQL, alu_o:   0
+
+Run 3: a_i equal to b_i
+a_i:   7, b_i:   7, op_i: ADD, alu_o:  14
+a_i:   7, b_i:   7, op_i: SUB, alu_o:   0
+a_i:   7, b_i:   7, op_i: SLL, alu_o: 128
+a_i:   7, b_i:   7, op_i: LSR, alu_o:   0
+a_i:   7, b_i:   7, op_i: AND, alu_o:   7
+a_i:   7, b_i:   7, op_i: OR, alu_o:   7
+a_i:   7, b_i:   7, op_i: XOR, alu_o:   0
+a_i:   7, b_i:   7, op_i: EQL, alu_o:   1
+
+Run 4: a_i smaller than b_i
+a_i:   4, b_i:   7, op_i: ADD, alu_o:  11
+a_i:   4, b_i:   7, op_i: SUB, alu_o: 253
+a_i:   4, b_i:   7, op_i: SLL, alu_o:   0
+a_i:   4, b_i:   7, op_i: LSR, alu_o:   0
+a_i:   4, b_i:   7, op_i: AND, alu_o:   4
+a_i:   4, b_i:   7, op_i: OR, alu_o:   7
+a_i:   4, b_i:   7, op_i: XOR, alu_o:   3
+a_i:   4, b_i:   7, op_i: EQL, alu_o:   0
