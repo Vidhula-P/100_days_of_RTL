@@ -12,10 +12,9 @@ module shift_register (
 
 	always_ff @(posedge clk or negedge reset) begin
 		if (!reset)
-			prl_out = 4'b0;
+			prl_out <= 4'b0;
 		else begin
-			prl_out = prl_out << 1;
-			prl_out[0] = x_i;
+			prl_out <= {prl_out[2:0], x_i};
 		end
 	end
 
