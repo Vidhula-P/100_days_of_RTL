@@ -6,7 +6,7 @@ module odd_counter(
 	always_ff @(posedge clk or negedge reset) begin
 		if (!reset)
 			cnt_o <= 8'h1;
-		else if (clk)
+		else
 			cnt_o <= cnt_o + 8'h2; // counter increments by 2 at every clock edge
 	end
 endmodule
