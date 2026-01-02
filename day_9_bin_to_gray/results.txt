@@ -1,0 +1,7 @@
+Some sample outputs-
+
+Binary: 0110, Gray: 0101
+Binary: 1100, Gray: 1010
+Binary: 1000, Gray: 1100
+Binary: 1010, Gray: 1111
+Binary: 1000, Gray: 1100
