@@ -1,0 +1,7 @@
+Some sample results-
+
+Binary: 0000, One-hot: 0000000000000001
+Binary: 0110, One-hot: 0000000001000000
+Binary: 0010, One-hot: 0000000000000100
+Binary: 1010, One-hot: 0000010000000000
+Binary: 1001, One-hot: 0000001000000000
