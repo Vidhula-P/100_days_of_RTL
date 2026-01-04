@@ -1,0 +1,32 @@
+Some select results-
+(Note, data is read LSB-first)
+
+Parallel in: 0011
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 0, Empty: 1, Serial out: 0
+
+Parallel in: 1010
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 0, Empty: 1, Serial out: 1
+
+Parallel in: 1000
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 0, Empty: 1, Serial out: 1
+
+Parallel in: 1001
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 1, Empty: 0, Serial out: 0
+Valid: 0, Empty: 1, Serial out: 1
+
+Parallel in: 1111
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 1, Empty: 0, Serial out: 1
+Valid: 0, Empty: 1, Serial out: 1
