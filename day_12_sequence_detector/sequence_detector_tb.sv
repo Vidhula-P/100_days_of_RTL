@@ -13,13 +13,15 @@ module sequence_detector_tb;
 	always #5 clk = ~clk;
 
 	initial begin
+		$dumpfile("sequence_detector.vcd");
+		$dumpvars(0,sequence_detector_tb);
 		reset = 0;
 		counter = 6'd36;
 		x_i = 0;
 		#1; reset = 1;
 		#3; reset = 0;
 		while (counter != 6'd0) begin
-			@(posedge clk); #3; // avoid race condition
+			@(negedge clk); // avoid race condition
 			x_i = pattern[counter-1];
 			counter = counter - 1;
 		end	
